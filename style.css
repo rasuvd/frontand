@@ -1,3 +1,177 @@
-h1{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
+
+
+.continer{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+.header-navbar{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    letter-spacing: 2px;
+}
+
+.header-nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav li {
+    position: relative;
+    padding: 20px;
+}
+
+.header-nav li a{
+    color: #000000;
+}
+
+
+.navbar-log a{
+    padding: 15px;
+}
+
+ .navbar-login{
+    height: 50px;
+    width: 205px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;    
+    background: #4353FF1A;
+} 
+
+.menu-title{
+    padding-top: 200px;
+}
+.menu-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-txt h3{
+    font-family: Roboto;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    padding-left: 100px;
+}
+
+.menu-txt p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.menu-by{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-by p{
+    margin-left: 100px;
+}
+
+.menu-by ul{
+    padding-right:8px;
+}
+
+.menu-by ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.menu-btn{
+    height: 60px;
+    width: 146px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: #4353FF;
+    border-radius: 2px;
+}
+
+.menu-by ul li a{
+    padding-bottom: 0 30px;
+}
+
+ .menu-btn a{
+    margin: 12px 4px;
+    color: #fff;
+} 
+
+.menu-item{
+    height: 62px;
+    width: 208px;
+    border: 1px solid #EBEBEB
+}
+
+ .menu-nav{
+    margin-left: 90px;    
+} 
+
+.menu-nav ul li {
+    display: inline-block;
+    padding: 7px;
+    border: 1px solid #EDEDED;
+    background: #EAEAEA;
+    border-radius: 3px;
+    margin: 8px;
+}
+
+.mag{
+    padding-top: 30px;
+    margin-left: 90px;
+}
+
+.mag a {
+    height: 32px;
+    width: 124px;
+    background: #CCEBD0;
+    padding: 10px;
+}
+
+/*  /// menu txt */
+
+/* imges section */
+
+.imges{
+    height: 563px;
+    width: 900px;
+    padding-top: 100px;
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
